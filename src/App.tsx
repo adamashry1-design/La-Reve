@@ -117,8 +117,12 @@ export default function App() {
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:px-8 lg:px-10">
           <a href="#home" className="group inline-flex items-center gap-3" onClick={() => setIsMenuOpen(false)}>
-            <div className="flex h-11 w-11 items-center justify-center rounded-full border border-[#d6b16a]/35 bg-[#d6b16a]/10 text-[#d6b16a] shadow-[0_0_30px_rgba(214,177,106,0.18)]">
-              LR
+            <div className="flex h-11 w-11 items-center justify-center rounded-full border border-[#d6b16a]/35 bg-[#d6b16a]/10 shadow-[0_0_30px_rgba(214,177,106,0.18)] overflow-hidden">
+              <img
+                src="https://ik.imagekit.io/lvqicqcvj/image.png"
+                alt="Le Rêve logo"
+                className="h-full w-full object-cover"
+              />
             </div>
             <div>
               <p className="font-display text-2xl leading-none text-white">Le Rêve</p>
