@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState, type ChangeEvent, type FormEvent } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { Reveal } from "./components/Reveal";
 import { SectionHeader } from "./components/SectionHeader";
 import { Stars } from "./components/Stars";
@@ -772,6 +773,7 @@ export default function App() {
           <path d="M16.04 3.2c-7.05 0-12.77 5.67-12.79 12.67 0 2.24.59 4.43 1.71 6.35L3 29l6.96-1.82a12.87 12.87 0 0 0 6.07 1.54h.01c7.05 0 12.78-5.67 12.8-12.68A12.73 12.73 0 0 0 16.04 3.2Zm0 23.37h-.01a10.7 10.7 0 0 1-5.44-1.49l-.39-.23-4.13 1.08 1.1-4.02-.26-.41a10.5 10.5 0 0 1-1.63-5.63c.01-5.82 4.77-10.55 10.76-10.55 2.88 0 5.58 1.11 7.61 3.13a10.43 10.43 0 0 1 3.14 7.44c-.02 5.82-4.78 10.55-10.75 10.55Z" />
         </svg>
       </button>
+      <Analytics />
     </div>
   );
 }
