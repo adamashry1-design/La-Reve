@@ -339,13 +339,6 @@ export default function App() {
                       <img src="/images/patio-le-reve.png" alt="Le Rêve outdoor patio" className="h-full min-h-[32rem] w-full object-cover" />
                     </div>
                   </div>
-                  <div className="gold-ring absolute -bottom-8 left-6 hidden max-w-sm rounded-[30px] border border-[#d6b16a]/20 bg-[#090909]/85 p-6 shadow-[0_25px_60px_rgba(0,0,0,0.45)] backdrop-blur-xl md:block">
-                    <p className="text-xs uppercase tracking-[0.34em] text-[#d6b16a]">The promise</p>
-                    <p className="mt-3 font-display text-3xl text-white">A restaurant chosen for memorable occasions.</p>
-                    <p className="mt-3 text-sm leading-7 text-stone-300/80">
-                      Ideal for couples, celebrations, and anyone seeking elegance without excess.
-                    </p>
-                  </div>
                 </div>
               </Reveal>
             </div>
